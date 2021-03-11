@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'Folly_Example' do
+  pod 'folly-ios', :path => '../'
+
+  target 'Folly_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
