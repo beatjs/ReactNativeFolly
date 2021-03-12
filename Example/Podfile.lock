@@ -1,14 +1,14 @@
 PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.5)
-  - folly-ios (0.1.0):
+  - glog (0.3.4)
+  - react-native-folly (0.1.0):
     - boost-for-react-native
     - DoubleConversion
     - glog
-  - glog (0.3.4)
 
 DEPENDENCIES:
-  - folly-ios (from `../`)
+  - react-native-folly (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -17,15 +17,15 @@ SPEC REPOS:
     - glog
 
 EXTERNAL SOURCES:
-  folly-ios:
+  react-native-folly:
     :path: "../"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
-  folly-ios: 40ac7b54e36652ee371ef6abaaf328aa5af55097
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  react-native-folly: 8df6ce6a4721a18ce1c3cc51c538118ee502e06d
 
-PODFILE CHECKSUM: 838fe95b635e591fe17a4272ab3a9034693a3349
+PODFILE CHECKSUM: 27ea14646f49bdfb7642df7b60cbb9aac5f0f6d5
 
 COCOAPODS: 1.10.1
