@@ -2,7 +2,7 @@ PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.5)
   - glog (0.3.4)
-  - react-native-folly (0.1.0):
+  - react-native-folly (0.1.1):
     - boost-for-react-native
     - DoubleConversion
     - glog
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
-  react-native-folly: 8df6ce6a4721a18ce1c3cc51c538118ee502e06d
+  react-native-folly: ceba3dc6d96fd8acb0dbb55bc7419776fb34f448
 
 PODFILE CHECKSUM: 27ea14646f49bdfb7642df7b60cbb9aac5f0f6d5
 
