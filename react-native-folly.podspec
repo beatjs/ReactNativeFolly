@@ -21,107 +21,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/beatjs/react-native-folly.git', :tag => s.version.to_s }
   
   s.module_name = 'folly'
-  s.ios.deployment_target = '11.0'
   s.libraries = "stdc++"
-  s.pod_target_xcconfig = { "USE_HEADERMAP" => "NO",
-                               "CLANG_CXX_LANGUAGE_STANDARD" => "c++14",
-                               "HEADER_SEARCH_PATHS" => "\"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\""
+  s.pod_target_xcconfig = {
+      "USE_HEADERMAP" => "NO",
+      "CLANG_CXX_LANGUAGE_STANDARD" => "c++14",
+      "HEADER_SEARCH_PATHS" => "\"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\""
   }
   s.compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_PTHREAD=1 -Wno-comma -Wno-documentation -Wno-unguarded-availability -Wno-unreachable-code'
   
- s.public_header_files =
- 'folly/json.h',
- 'folly/dynamic.h',
- 'folly/Memory.h',
- 'folly/MoveWrapper.h',
- 'folly/Conv.h',
- 'folly/ScopeGuard.h',
- 'folly/portability/Fcntl.h',
- 'folly/portability/SysMman.h',
- 'folly/portability/SysStat.h',
- 'folly/portability/Unistd.h',
- 'folly/Exception.h',
- 'folly/Bits.h',
- 'folly/Portability.h',
- 'folly/Optional.h',
- 'folly/String.h',
- 'folly/lang/Assume.h',
- 'folly/lang/CString.h',
- 'folly/portability/Config.h',
- 'folly/Format.h',
- 'folly/container/Enumerate.h',
- 'folly/hash/Hash.h',
- 'folly/container/detail/F14Table.h',
- 'folly/FileUtil.h',
- 'folly/detail/FileUtilDetail.h',
- 'folly/net/NetOps.h',
- 'folly/portability/Fcntl.h',
- 'folly/portability/Sockets.h',
- 'folly/portability/Stdlib.h',
- 'folly/portability/SysFile.h',
- 'folly/portability/SysStat.h',
- 'folly/Format.h',
- 'folly/ConstexprMath.h',
- 'folly/CppAttributes.h',
- 'folly/container/Array.h',
- 'folly/Range.h',
- 'folly/Unicode.h',
- 'folly/portability/Constexpr.h',
- 'folly/json_pointer.h',
- 'folly/memory/detail/MallocImpl.h',
- 'folly/net/NetOps.h',
- 'folly/net/detail/SocketFileDescriptorMap.h',
- 'folly/lang/SafeAssert.h',
- 'folly/hash/SpookyHashV2.h',
- 'folly/portability/SysUio.h',
- 'folly/detail/UniqueInstance.h'
-  
   s.source_files =
-  'folly/json.h',
-  'folly/dynamic.h',
-  'folly/Memory.h',
-  'folly/MoveWrapper.h',
-  'folly/Conv.h',
-  'folly/ScopeGuard.h',
-  'folly/portability/Fcntl.h',
-  'folly/portability/SysMman.h',
-  'folly/portability/SysStat.h',
-  'folly/portability/Unistd.h',
-  'folly/Exception.h',
-  'folly/Bits.h',
-  'folly/Portability.h',
-  'folly/Optional.h',
-  'folly/String.h',
-  'folly/lang/Assume.h',
-  'folly/lang/CString.h',
-  'folly/portability/Config.h',
-  'folly/Format.h',
-  'folly/container/Enumerate.h',
-  'folly/hash/Hash.h',
-  'folly/container/detail/F14Table.h',
-  'folly/FileUtil.h',
-  'folly/detail/FileUtilDetail.h',
-  'folly/net/NetOps.h',
-  'folly/portability/Fcntl.h',
-  'folly/portability/Sockets.h',
-  'folly/portability/Stdlib.h',
-  'folly/portability/SysFile.h',
-  'folly/portability/SysStat.h',
-  'folly/Format.h',
-  'folly/ConstexprMath.h',
-  'folly/CppAttributes.h',
-  'folly/container/Array.h',
-  'folly/Range.h',
-  'folly/Unicode.h',
-  'folly/portability/Constexpr.h',
-  'folly/json_pointer.h',
-  'folly/memory/detail/MallocImpl.h',
-  'folly/net/NetOps.h',
-  'folly/net/detail/SocketFileDescriptorMap.h',
-  'folly/lang/SafeAssert.h',
-  'folly/hash/SpookyHashV2.h',
-  'folly/portability/SysUio.h',
-  'folly/detail/UniqueInstance.h',
   'folly/String.cpp',
   'folly/Conv.cpp',
   'folly/Demangle.cpp',
@@ -161,5 +69,5 @@ Pod::Spec.new do |s|
   s.dependency 'DoubleConversion'
   s.dependency 'glog'
   
-  s.platforms = { :ios => "11.0"}
+  s.platforms = { :ios => "10.0"}
 end
