@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '11.0'
 
-target 'Folly_Example' do
-  pod 'react-native-folly', :path => '../'
+target 'ReactNativeFolly_Example' do
+  pod 'ReactNativeFolly', :path => '../'
 
-  target 'Folly_Tests' do
+  target 'ReactNativeFolly_Tests' do
     inherit! :search_paths
 
     

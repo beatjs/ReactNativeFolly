@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Folly
+//  ReactNativeFolly
 //
-//  Created by 42330633 on 03/08/2021.
+//  Created by 42330633 on 03/19/2021.
 //  Copyright (c) 2021 42330633. All rights reserved.
 //
 

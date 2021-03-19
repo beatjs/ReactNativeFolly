@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "Folly_Example.app"
-               BlueprintName = "Folly_Example"
-               ReferencedContainer = "container:Folly.xcodeproj">
+               BuildableName = "ReactNativeFolly_Example.app"
+               BlueprintName = "ReactNativeFolly_Example"
+               ReferencedContainer = "container:ReactNativeFolly.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "Folly_Tests.xctest"
-               BlueprintName = "Folly_Tests"
-               ReferencedContainer = "container:Folly.xcodeproj">
+               BuildableName = "ReactNativeFolly_Tests.xctest"
+               BlueprintName = "ReactNativeFolly_Tests"
+               ReferencedContainer = "container:ReactNativeFolly.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "Folly_Tests.xctest"
-               BlueprintName = "Folly_Tests"
-               ReferencedContainer = "container:Folly.xcodeproj">
+               BuildableName = "ReactNativeFolly_Tests.xctest"
+               BlueprintName = "ReactNativeFolly_Tests"
+               ReferencedContainer = "container:ReactNativeFolly.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Folly_Example.app"
-            BlueprintName = "Folly_Example"
-            ReferencedContainer = "container:Folly.xcodeproj">
+            BuildableName = "ReactNativeFolly_Example.app"
+            BlueprintName = "ReactNativeFolly_Example"
+            ReferencedContainer = "container:ReactNativeFolly.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Folly_Example.app"
-            BlueprintName = "Folly_Example"
-            ReferencedContainer = "container:Folly.xcodeproj">
+            BuildableName = "ReactNativeFolly_Example.app"
+            BlueprintName = "ReactNativeFolly_Example"
+            ReferencedContainer = "container:ReactNativeFolly.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Folly_Example.app"
-            BlueprintName = "Folly_Example"
-            ReferencedContainer = "container:Folly.xcodeproj">
+            BuildableName = "ReactNativeFolly_Example.app"
+            BlueprintName = "ReactNativeFolly_Example"
+            ReferencedContainer = "container:ReactNativeFolly.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
