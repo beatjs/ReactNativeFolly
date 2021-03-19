@@ -66,8 +66,8 @@ Pod::Spec.new do |s|
   'folly/portability/*.h'
   
   s.dependency 'boost-for-react-native', '1.63.0'
-  s.dependency 'DoubleConversion', '1.1.5
+  s.dependency 'DoubleConversion', '1.1.5'
   s.dependency 'glog', '0.3.4'
   
-  s.platforms = { :ios => "11.0"}
+  s.platforms = { :ios => "11.0" }
 end
