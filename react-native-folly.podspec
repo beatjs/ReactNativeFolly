@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'react-native-folly'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'iOS framework of Folly that support use_frameworks!.'
 
   s.description      = <<-DESC
@@ -65,9 +65,9 @@ Pod::Spec.new do |s|
   'folly/net/detail/*.h',
   'folly/portability/*.h'
   
-  s.dependency 'boost-for-react-native'
-  s.dependency 'DoubleConversion'
-  s.dependency 'glog'
+  s.dependency 'boost-for-react-native', '1.63.0'
+  s.dependency 'DoubleConversion', '1.1.5
+  s.dependency 'glog', '0.3.4'
   
-  s.platforms = { :ios => "10.0"}
+  s.platforms = { :ios => "11.0"}
 end
